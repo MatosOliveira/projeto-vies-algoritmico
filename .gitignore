@@ -1,0 +1,10 @@
+# Microdados brutos do INEP (grandes demais para o GitHub; ver README)
+data/*.csv
+data/processed/_tmp/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/

@@ -1,0 +1,36 @@
+{
+  "run_id": "2025_A_principal",
+  "scenario": "questionário e demográficos (principal)",
+  "n_total": 199318,
+  "n_treino": 104641,
+  "n_calibracao": 34881,
+  "n_teste": 59796,
+  "n_features_codificadas": 137,
+  "pesos_amostrais": true,
+  "args": {
+    "year": [
+      2025
+    ],
+    "scenario": [
+      "A"
+    ],
+    "target": [
+      "principal"
+    ],
+    "attrs": [
+      "TP_SEXO",
+      "RACA_GRUPO",
+      "REGIAO",
+      "RENDA_GRUPO"
+    ],
+    "include_uf": false,
+    "only_baseline": false,
+    "skip_reductions": false,
+    "reductions_eo": false,
+    "reductions_max_iter": 50,
+    "reductions_n": 60000,
+    "no_weights": false,
+    "n_boot": 200,
+    "seed": 42
+  }
+}

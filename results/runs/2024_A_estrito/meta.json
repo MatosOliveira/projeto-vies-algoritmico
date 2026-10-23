@@ -1,0 +1,36 @@
+{
+  "run_id": "2024_A_estrito",
+  "scenario": "questionário e demográficos (principal)",
+  "n_total": 188284,
+  "n_treino": 98848,
+  "n_calibracao": 32950,
+  "n_teste": 56486,
+  "n_features_codificadas": 136,
+  "pesos_amostrais": true,
+  "args": {
+    "year": [
+      2024
+    ],
+    "scenario": [
+      "A"
+    ],
+    "target": [
+      "estrito"
+    ],
+    "attrs": [
+      "TP_SEXO",
+      "RACA_GRUPO",
+      "REGIAO",
+      "RENDA_GRUPO"
+    ],
+    "include_uf": false,
+    "only_baseline": false,
+    "skip_reductions": false,
+    "reductions_eo": false,
+    "reductions_max_iter": 50,
+    "reductions_n": 60000,
+    "no_weights": false,
+    "n_boot": 200,
+    "seed": 42
+  }
+}
